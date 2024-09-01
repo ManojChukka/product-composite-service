@@ -1,11 +1,11 @@
 package ch.manoj.microservices.core.productcomposite.services;
 
-import ch.manoj.api.composite.product.*;
-import ch.manoj.api.core.product.Product;
-import ch.manoj.api.core.recommendation.Recommendation;
-import ch.manoj.api.core.review.Review;
-import ch.manoj.api.exceptions.NotFoundException;
-import ch.manoj.util.http.ServiceUtil;
+import ch.manoj.microservices.api.lib.composite.product.*;
+import ch.manoj.microservices.api.lib.core.product.Product;
+import ch.manoj.microservices.api.lib.core.recommendation.Recommendation;
+import ch.manoj.microservices.api.lib.core.review.Review;
+import ch.manoj.microservices.api.lib.exceptions.NotFoundException;
+import ch.manoj.microservices.util.lib.http.ServiceUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 

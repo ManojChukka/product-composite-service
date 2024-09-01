@@ -1,10 +1,10 @@
 package ch.manoj.microservices.core.productcomposite;
 
-import ch.manoj.api.core.product.Product;
-import ch.manoj.api.core.recommendation.Recommendation;
-import ch.manoj.api.core.review.Review;
-import ch.manoj.api.exceptions.InvalidInputException;
-import ch.manoj.api.exceptions.NotFoundException;
+import ch.manoj.microservices.api.lib.core.product.Product;
+import ch.manoj.microservices.api.lib.core.recommendation.Recommendation;
+import ch.manoj.microservices.api.lib.core.review.Review;
+import ch.manoj.microservices.api.lib.exceptions.InvalidInputException;
+import ch.manoj.microservices.api.lib.exceptions.NotFoundException;
 import ch.manoj.microservices.core.productcomposite.services.ProductCompositeIntegration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

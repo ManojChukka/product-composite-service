@@ -1,14 +1,14 @@
 package ch.manoj.microservices.core.productcomposite.services;
 
-import ch.manoj.api.core.product.Product;
-import ch.manoj.api.core.product.ProductService;
-import ch.manoj.api.core.recommendation.Recommendation;
-import ch.manoj.api.core.recommendation.RecommendationService;
-import ch.manoj.api.core.review.Review;
-import ch.manoj.api.core.review.ReviewService;
-import ch.manoj.api.exceptions.InvalidInputException;
-import ch.manoj.api.exceptions.NotFoundException;
-import ch.manoj.util.http.HttpErrorInfo;
+import ch.manoj.microservices.api.lib.core.product.Product;
+import ch.manoj.microservices.api.lib.core.product.ProductService;
+import ch.manoj.microservices.api.lib.core.recommendation.Recommendation;
+import ch.manoj.microservices.api.lib.core.recommendation.RecommendationService;
+import ch.manoj.microservices.api.lib.core.review.Review;
+import ch.manoj.microservices.api.lib.core.review.ReviewService;
+import ch.manoj.microservices.api.lib.exceptions.InvalidInputException;
+import ch.manoj.microservices.api.lib.exceptions.NotFoundException;
+import ch.manoj.microservices.util.lib.http.HttpErrorInfo;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
